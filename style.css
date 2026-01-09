@@ -50,6 +50,12 @@ nav{
     text-transform: capitalize;
     border-radius: 7px;
 }
+.btn:hover{
+    background-color: transparent;
+    border: 3px solid #001931;
+    color: #001931;
+
+}
 .b2{
     display: flex;
     justify-content: center;
@@ -124,6 +130,17 @@ nav{
     font-weight: bold;
     border: none;
     border-radius: 7px;
+}
+.b2 button:hover, #b3:hover{
+    background-color: transparent;
+    border: 3px solid #010911;
+    color: #FFFFFF;
+
+}
+#b4:hover{
+    background-color: transparent;
+    border: 3px solid #010911;
+    color: black;
 }
 .main{
     width: 100%;
@@ -258,6 +275,7 @@ height: 60px;
     color: white;
     
 }
+
 
 .btn-with-icon {
     background-color: #4A8B63;
