@@ -26,7 +26,7 @@ nav{
     margin-left:120px;
     margin-right: 120px;
     padding-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .menu{
     display: flex;
@@ -52,64 +52,191 @@ nav{
 }
 
 .hero-section{
-    background: url(assets/hero-bg.png);
-    background-size: cover;
-    height:600px;
-    width: 100%;
-    background-position: center;
+    background-image: url(./assets/hero-bg.png);
+    max-width: 1600px;
+    height: 674px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-repeat: no-repeat;
-    padding-top: 80px;
+    background-position: center;
+    background-size: cover;
+    
+}
+.hero-content a{
+    text-decoration: none;
+    color: #0F3D2E;
+    width: 229px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 8px 12px 8px 12px;
+
+    
+
+    
+}
+
+.hero-content h1{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+}
+.hero-content span{
+    color: #1B5E20;
+    line-height: 84px;
+}
+.hero-content p{
+    color: white;
+    margin-bottom: 17px;
+    line-height: 25px;
+}
+.b2 button{
+    padding: 12px 16px;
+    color: white;
+    background-color: #1B5E20;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+}
+.main h3{
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 84px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+.main p{
+line-height: 20px;
+font-size: 16px;
+color: #627382;
+text-align: center;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 322px;
+    height: 300px;
+    align-items: center;
+    gap:16px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 24px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+
+    
+}
+.card h2{
+    font-size: 18px;
+}
+
+.img-container{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    align-items:center;
+    justify-content: center;
+
+}
+
+
+.container2 img{
+    height: 600px;
+    width: 600px;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center
+}
+.container-text{
+    width: 700px;
+    height: 396px;
+    margin-top: 200px;
+}
+.container-text h5{
+    line-height: 20px;
+    font-size: 16px;
+    color: #30b868;
+}
+.container-text h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.container-text p{
+color: #627382;
+line-height: 20px;
+font-size: 16px;
+width: 700px;
+height: 60px;
+}
+
+.min3{
+    height: 384px;
+    width: 1360px;
+    background-color: #f7f6f2;
+    text-align: center;
+    justify-content: space-between;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 40px auto;
+}
+.container-text ul{
+    list-style: none;
+    list-style-image: url(./assets/CheckCircle.png);
+    align-items: center;
+    margin-left: 25px;
+    line-height: 20px;
+    font-size: 16px;
+}
+.article {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
-    
-}
-.text {
-background-color: white;
-max-width: 183px;
-text-decoration: none;
-margin: 0 auto;
-padding: 6px 10px;
-border-radius: 15px;
-
-
-
-}
-.text a{
-    text-decoration: none;
-    color: #0F3D2E;
-    display: inline;
-    font-size: 13px;
-    
+    gap: 16px;
 }
 
-.hero-content{
+.article h2{
+    margin-bottom: 16px;
     text-align: center;
-    
 }
-.b2 a{
+.article p{
+    line-height: 20px;
+    font-size: 16px;
+    color: #627382;
+}
+
+.btn-with-icon {
+    background-color: #4A8B63;
     color: white;
-    gap: 15px;
-    text-decoration: none;
-    display:flex
-    font-size: 13px;
-    background-color: #1B5E20;
-    
-}
-.b2{
-    width: 440px;
-    display: flex;
-    gap: 20px;
-    text-align: center;
-    
-    
-}
-.b2 button{
-    background-color: #1B5E20;
+    padding: 12px 24px;
     border: none;
-    padding: 12px;
-    border-radius: 4px;
-    color: white;
-    
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-icon {
+    width: 18px;
+    height: auto;
 }
