@@ -80,7 +80,7 @@ nav{
     position: absolute;
     top: 115px;
     left: 120px;
-    max-width: 1360px;
+    /* max-width: 1360px; */
     margin: 0 auto;
     width: 85%;
 }
